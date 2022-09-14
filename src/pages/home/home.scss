@@ -1,8 +1,13 @@
-.home{
-    display: flex;
+.home {
+  display: flex;
 
-    .homeContainer{
-        flex: 6;
-        //flex 다음의 숫자는 unit을 의미함, 여기서 6는 6만큼의 크기를 가진다는 것
+  .homeContainer {
+    flex: 6;
+    //flex 다음의 숫자는 unit을 의미함, 여기서 6는 6만큼의 크기를 가진다는 것
+    .widgets {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
     }
+  }
 }
